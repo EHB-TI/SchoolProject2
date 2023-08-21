@@ -79,26 +79,7 @@ input[type="submit"]:active {
 		<label for="remember">Remember Me</label><br><br>
         <a href="signupPage.html">No account ? sign-up</a>
 		<input type="submit" value="Login">
-        <a href="forgotPassword.html">Forgot password</a>
-        <label for="email">Email:</label>
-		<input type="email" id="email" name="email" required autofocus><br><br>
-		<label for="password">Password:</label>
-		<input type="password" id="password" name="password" required><br><br>
-		<input type="checkbox" name="remember" id="remember">
-		<label for="remember">Remember Me</label><br><br>
-        <a href="signupPage.html">No account ? sign-up</a>
-		<input type="submit" value="Login">
-        <a href="forgotPassword.html">Forgot password</a>
-
-
-        <input type="email" id="email" name="email" required autofocus><br><br>
-		<label for="password">Password:</label>
-		<input type="password" id="password" name="password" required><br><br>
-		<input type="checkbox" name="remember" id="remember">
-		<label for="remember">Remember Me</label><br><br>
-        <a href="signupPage.html">No account ? sign-up</a>
-		<input type="submit" value="Login">
-        <a href="forgotPassword.html">Forgot password</a>
+        <a href="forgotPassword.html">Forgot password</a>      
 	</form>
 </body>
 </html>
