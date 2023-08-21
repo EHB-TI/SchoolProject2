@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::match(['get', 'post'], 'home', function () {
+    // Your route logic here
+    return view('home');
+})->name('home'); // Give the route a name for easy referencing
+
+

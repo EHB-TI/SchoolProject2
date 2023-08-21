@@ -69,7 +69,7 @@ input[type="submit"]:active {
 </style>
 <body>
 	<h2>Login</h2>
-	<form method="POST" action="Loggedin.php">
+	<form method="POST" action="{{ route('home') }}">
 		
 		<label for="email">Email:</label>
 		<input type="email" id="email" name="email" required autofocus><br><br>
